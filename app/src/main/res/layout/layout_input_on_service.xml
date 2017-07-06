@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_relativeLayout_service"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frmInputService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtInputDialog"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="25dp"
+            android:hint="@string/some_text"
+            android:textColorHint="@color/black2"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/btnClearTextService"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="2dp"
+            android:visibility="gone"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_cross_x" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/lnBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="3"
+        android:layout_below="@id/frmInputService">
+
+        <Button
+            android:id="@+id/btnTranslateDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="2"
+            android:background="@drawable/border_radius"
+            android:text="@string/translate" />
+
+        <Switch
+            android:id="@+id/switchLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/eng" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResultDialog"
+        android:layout_below="@id/lnBottom"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="5dp"
+        android:selectAllOnFocus="true"
+        android:textIsSelectable="true"
+        android:hint="@string/result_return_here"
+        android:visibility="gone"
+        android:textColorHint="@color/black2"/>
+
+</RelativeLayout>

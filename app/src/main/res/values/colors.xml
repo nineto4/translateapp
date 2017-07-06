@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#38973c</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#536DFE</color>
+
+    <color name="light_green">#cc3dc12b</color>
+
+    <color name="status_hearing">#7B1FA2</color>
+    <color name="status_not_hearing">#757575</color>
+
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="iron3">#848484</color>
+    <color name="iron2">#eaeaea</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black2">#605c5c</color>
+    <color name="blue">#1c3eff</color>
+    <color name="yellow">#F0F088</color>
+
+    <color name="candidate_normal">#FFFFFFFF</color>
+    <color name="candidate_recommended">#FFFCAE00</color>
+    <color name="candidate_other">#FFFCAE00</color>
+    <color name="candidate_background">#bbffffff</color>
+    <color name="candidate_recommended_background">#58B400</color>
+    <color name="candidate_red">#FF990000</color>
+</resources>

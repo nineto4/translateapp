@@ -1,0 +1,15 @@
+<project>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-speech</artifactId>
+            <version>v1beta1-rev336-1.22.0</version>
+        </dependency>
+    </dependencies>
+
+    <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>google-cloud-speech</artifactId>
+        <version>0.17.1-alpha</version>
+    </dependency>
+</project>
